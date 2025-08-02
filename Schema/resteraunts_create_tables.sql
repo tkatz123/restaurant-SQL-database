@@ -60,7 +60,7 @@ CREATE TABLE monthly_member_totals (
 
 -- Table: order_details
 CREATE TABLE order_details (
-    order_details_id integer NOT NULL CONSTRAINT order_details_pk PRIMARY KEY,
+    order_details_id integer NOT NULL CONSTRAINT order_details_pk PRIMARY KEY AUTOINCREMENT,
     order_id integer NOT NULL,
     meal_id integer NOT NULL,
     CONSTRAINT order_details_meals FOREIGN KEY (meal_id)
@@ -85,7 +85,7 @@ CREATE TABLE orders (
 
 -- Table: restaurant_type
 CREATE TABLE restaurant_type (
-    restaurant_type_id integer NOT NULL CONSTRAINT restaurant_type_pk PRIMARY KEY,
+    restaurant_type_id integer NOT NULL CONSTRAINT restaurant_type_pk PRIMARY KEY AUTOINCREMENT,
     restaurant_type varchar(25) NOT NULL
 );
 
