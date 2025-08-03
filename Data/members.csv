@@ -1,4 +1,4 @@
-id,first_name,surname,sex,email,city_id
+member_id,first_name,last_name,sex,email,city_id
 1,Ollie,Kinney,M,Ol.Kinney@walla.co.il,4
 2,Landon,Bishop,F,La.Bi@gmail.com,4
 3,Jia,Delarosa,M,Jia.De@gmail.com,4

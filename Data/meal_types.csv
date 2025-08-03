@@ -1,4 +1,4 @@
-id,meal_type
+meal_type_id,meal_type
 1,Vegan
 2,Cheese
 3,Beef
