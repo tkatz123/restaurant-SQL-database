@@ -43,7 +43,7 @@ This project models and analyzes restaurant meal ordering behavior using a relat
     - `restaurants_drop_tables.sql`: Drops all tables to reset the database.
 
 - `Scripts/`
-- Includes a Python helper script, `generate_insert_script.py`, used to convert CSV files into SQL `INSERT` statements for database loading.
+    - Includes a Python helper script, `generate_insert_script.py`, used to convert CSV files into SQL `INSERT` statements for database loading.
 
 ---
 
