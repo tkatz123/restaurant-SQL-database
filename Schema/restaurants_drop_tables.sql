@@ -11,3 +11,8 @@ DROP TABLE IF EXISTS serve_types;
 DROP TABLE IF EXISTS meal_types;
 DROP TABLE IF EXISTS restaurant_types;
 DROP TABLE IF EXISTS cities;
+
+--Drop views section
+DROP VIEW IF EXISTS member_spending_summary;
+DROP VIEW IF EXISTS restaurant_revenue_summary;
+DROP VIEW IF EXISTS enriched_orders;

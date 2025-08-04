@@ -40,6 +40,10 @@ for table, file_name in csv_files.items():
         continue
 
     df = pd.read_csv(file_path)
+
+    if table == "orders" and 'date' in df.columns:
+        df['date'] = pd.to_datetime(df['date'], format='%m/%d/%y').dt.strftime('%Y-%m-%d')
+    
     if df.empty:
         print(f"Note: {file_path} is empty. Skipping.")
         continue
