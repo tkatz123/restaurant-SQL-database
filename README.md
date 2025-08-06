@@ -1,4 +1,4 @@
-# restaurant-SQL-database
+# Restaurant SQL Database
 
 This project models and analyzes restaurant meal ordering behavior using a relational SQL database. It simulates a food delivery platform with members, restaurants, meals, and transactions. The project was developed entirely using SQLite and DB Browser for SQLite and demonstrates full-cycle data handling—from schema creation and population to advanced SQL querying and data validation.
 
